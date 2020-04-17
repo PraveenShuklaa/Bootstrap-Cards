@@ -1,0 +1,21 @@
+.carousel-item img{
+    height: 500px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgb(255, 238, 0);
+}
+.card img{
+    height: 150px;
+}
+.card-body{
+    background-color: #9cb6e4;
+}
+@media(max-width: 700px){
+    .carousel-item img{
+        height: 350px;
+    }
+    .none{
+        display: none;
+    }
+}
